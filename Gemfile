@@ -34,9 +34,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails', '~> 3.7'
+  gem 'rspec-rails'
   gem 'capybara'
+  gem 'pry-rails'
   gem 'database_cleaner'
+  #gem 'rails-controller-testing', require: false
 end
 
 group :development do
